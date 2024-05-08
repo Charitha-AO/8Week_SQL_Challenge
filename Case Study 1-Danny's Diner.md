@@ -32,12 +32,12 @@ Danny has shared with you 3 key datasets for this case study:
 
 ## Case Study Queries and Solutions
 1. What is the total amount each customer spent at the restaurant?
-   ```sql
+```sql
    SELECT sales.customer_id,SUM(menu.price) AS total_spent FROM sales
    JOIN menu ON sales.product_id = menu.product_id
    GROUP BY sales.customer_id
    ORDER BY sales.customer_i;
-   ```
+```
 Answer:
 
 ![1-1](https://github.com/Charitha-AO/8Week_SQL_Challenge/assets/86000133/983c3565-bb27-46f0-88cf-c829a0404ffe)
