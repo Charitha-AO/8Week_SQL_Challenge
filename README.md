@@ -1,2 +1,3 @@
 # 8Week_SQL_Challenge
-This Repository will contain 8 case studies
+This Repository Contains 2 SQL Case Studies
+
